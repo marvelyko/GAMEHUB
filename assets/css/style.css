@@ -17,7 +17,7 @@ body{
 .logo{
 	display: flex;
 	text-transform: uppercase;
-	font-size: 40px;
+	font-size: 30px;
 	color: #FFFFFF;
 	font-family: 'HelveLight';
 }
@@ -40,7 +40,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 60px;
+	height: 50px;
 	width: 100%;
 	background-color: #C60314;
 }
@@ -55,7 +55,7 @@ body{
 }
 
 .divideline{
-	height: 37px;
+	height: 30px;
 	width: 1px;
 	background-color: #FFFFFF;
 	margin-right: 20px;
@@ -66,7 +66,7 @@ body{
 }
 
 .searchtxt{
-	font-size: 18px;
+	font-size: 16px;
 	color: #FFFFFF;
 	margin-right: 70px;
 }
@@ -95,7 +95,7 @@ body{
 
 .donation{
 	margin-left:10px;
-	font-size: 22px;
+	font-size: 20px;
 	color: #FFFFFF;
 	text-transform: uppercase;
 }
@@ -110,22 +110,22 @@ body{
 
 
 .useravatar{
-	height: 40px;
-	width: 40px;
+	height: 30px;
+	width: 30px;
 	border-radius: 50%;
 }
 
 .navigation{
 	display: flex;
 	align-items: center;
-	height: 50px;
+	height: 40px;
 	width: 100%;
 	background-color: #970000;
 
 }
 
 .nav-li{
-    font-size: 22px;
+    font-size: 20px;
     text-transform: capitalize;
     color: #FFFFFF;
 
@@ -145,7 +145,7 @@ body{
 .nav-li a{
 	
 	color: #FFFFFF;
-	padding: 12px 47px;
+	padding: 8.5px 47px;
 	text-decoration: none;
 	text-align: center;
 }
@@ -246,4 +246,59 @@ footer{
 
 .section{
 	height: 800px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 20px auto;
+  max-width: 1088px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  border: #E62117 1px solid;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.loadmore{
+	background-color:#919191;
+	border: 1px solid #707070;
+	height: 30px;
+	width: 100%;
+	margin: 20px auto;
+	margin-bottom: 0;
+}
+
+.loadmore p{
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-top:5px;
 }
