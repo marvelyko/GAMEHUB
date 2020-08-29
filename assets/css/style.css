@@ -353,16 +353,66 @@ footer{
 }
 
 .box2{
-margin: 0 20px 20px 0;
-	height: 295px;
+	margin: 0 20px 20px 0;
 	width: 100%;
 	background-color: #ECECEC;
-		border-radius: 2px;
-
+	border-radius: 3px;
 }
 .piconTortura{
 	border-radius: 50%;
 	height: 20px;
+	display: inline-block;
+	margin: 5px;
+	margin-bottom: 0;
+}
+.pDescribe{
+	display: inline-block;
+	color: #919191;
+	font-size: 15px;
+}
+.pDescribe >span{
+	color:#FF5858;
+}
+.pHeader{
+	color:#919191;
+	font-size: 22px;
+	margin: 20px 0 10px 5px;
+}
+.p-hr{
+	border: #FFFFFF 1px solid;
+	width: 99%;
+	align-items:center;
+}
+.pText{
+	margin: 10px;
+	font-size: 20px;
+	color: #919191;
+}
+.pText >span{
+	color: #000000;
+}
+.pReact{
+	display: inline-block;
+	margin: 0px 5px;
+}
+.react{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.pReact a{
+	padding: 0 5px 0;
+	text-decoration: none;
+	text-align: center;
+}
+
+.react >img{
+	height: 20px;
+	display:inline-block;
+}
+.react >p{
+	display: inline-block;
+	font-size: 16px;
+	color: #000000;
 }
 .box3{
 	height: 295px;
