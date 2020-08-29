@@ -534,10 +534,12 @@ footer >hr{
 .mi-boxes{
 	margin-bottom: 20px;
 	padding: 10px;
+	border-radius: 5px;
 }
 .mi-box1{
 	padding: 10px;
 	padding-top: 0;
+	border-radius: 5px;
 
 }
 .mi-box2{
@@ -626,8 +628,72 @@ footer >hr{
 #about-match >div >p >span{
 	color:#919191;
 }
+
 .mi2-column {
   flex: 50%;
   max-width: 100%;
   padding-left: 8px;
+}
+.mi-box4{
+	padding: 10px;
+	background-color: #ECECEC;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.mi-box4 >div{
+	display: inline-block;
+	margin-left: 30px;
+}
+.mi-box4 >div >h2{
+	font-size:18px;
+	color: #000000;
+	text-align: center;
+}
+.mi-box4 >div >div{
+	margin-top: 10px;
+}
+.mi-player{
+	text-align: left;
+}
+.mi-player >img{
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.mi-player >p{
+	font-size: 16px;
+	color: #000000;
+	display: inline-block;
+	text-transform: capitalize;
+	vertical-align: middle;
+}
+.mi-t-zappa{
+	float:right;
+	margin-right: 30px;
+}
+.mi-box5{
+	padding: 10px;
+	background-color: #ECECEC;
+	text-align: center;
+	border-radius: 5px;
+}
+.stream-black{
+	padding: 18%;
+	background-color: #636363;
+}
+.flex-stream{
+	display: flex;
+  	justify-content: center;
+}
+.flex-stream >div{
+	background-color: #FF5858;
+    width: 100px;
+    margin: 20px 10px 10px 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
