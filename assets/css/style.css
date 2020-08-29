@@ -228,11 +228,9 @@ footer{
 	-moz-transition: .1s;
 }
 
-.line{
-	width: 100%;
+footer >hr{
 	margin: 20px 0;
-	height: 1px;
-	background-color: #FFFFFF;
+	border:#FFFFFF 1px solid;
 }
 
 .copyright{
@@ -257,7 +255,6 @@ footer{
   max-width: 1088px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
   max-width: 25%;
@@ -270,7 +267,6 @@ footer{
   border: #E62117 1px solid;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
   .column {
     flex: 50%;
@@ -278,7 +274,6 @@ footer{
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .column {
     flex: 100%;
@@ -325,17 +320,16 @@ footer{
   max-width: 1088px;
 }
 
-/* Create four equal columns that sits next to each other */
 .ncolumn {
   flex: 65%;
   max-width: 100%;
-  padding: 0 8px 0 0;
+  margin-right: 8px;
 }
 
 .nncolumn {
   flex: 30%;
   max-width: 100%;
-  padding: 0 0 0 8px;
+  margin-left: 8px;
 }
 
 
@@ -357,13 +351,12 @@ footer{
 	width: 100%;
 	background-color: #ECECEC;
 	border-radius: 3px;
+	padding: 10px;
 }
 .piconTortura{
 	border-radius: 50%;
 	height: 20px;
 	display: inline-block;
-	margin: 5px;
-	margin-bottom: 0;
 }
 .pDescribe{
 	display: inline-block;
@@ -376,15 +369,13 @@ footer{
 .pHeader{
 	color:#919191;
 	font-size: 22px;
-	margin: 20px 0 10px 5px;
+	margin: 10px 0;
 }
-.p-hr{
+.box2 >hr{
 	border: #FFFFFF 1px solid;
-	width: 99%;
 	align-items:center;
 }
 .pText{
-	margin: 10px;
 	font-size: 20px;
 	color: #919191;
 }
@@ -393,18 +384,21 @@ footer{
 }
 .pReact{
 	display: inline-block;
-	margin: 0px 5px;
 }
 .react{
 	display: inline-block;
-	margin-bottom: 5px;
 }
 .pReact a{
-	padding: 0 5px 0;
 	text-decoration: none;
 	text-align: center;
 }
-
+.p-line{
+	background-color: #919191;
+	height: 20px;
+	width: 1px;
+	display: inline-block;
+	margin: 0 5px;
+}
 .react >img{
 	height: 20px;
 	display:inline-block;
@@ -413,14 +407,6 @@ footer{
 	display: inline-block;
 	font-size: 16px;
 	color: #000000;
-}
-.box3{
-	height: 295px;
-	width: 100%;
-	background-color: #ECECEC;
-	margin: 0 20px 20px 0;
-	border-radius: 2px;
-
 }
 
 .box4{
@@ -438,39 +424,33 @@ footer{
 	color: #707070;
 	padding: 2px 0 0 2px;
 }
-.box5{
-margin: 0 20px 20px 0;
-	height: 295px;
-	width: 100%;
-	background-color: #ECECEC;
-	border-radius: 2px;
-}
 
 .box6{
-	margin: 0 20px 20px 0;
-	height: 200px;
+	margin-bottom: 20px;
 	width: 100%;
 	background-color: #ECECEC;
 	border-radius: 5px;
+	padding: 10px;
 }
 .box6 >h3{
 	font-size: 18px;
 	color: #000000;
-	padding: 10px 0 0 10px;
 }
 .ticons{
 	height: 60px;
 	width: 60px;
 }
 .tSpace{
-	padding: 10px 0 0 30px;
+	padding: 10px 0 0 20px;
 	display: inline-block;
+	vertical-align: middle;
 }
 .mTime{
 	display: inline-block;
 	margin-left: 60px;
-	margin-right: 30px;
+	margin-right: 40px;
 	text-align: center;
+	vertical-align: middle;
 }
 
 .matchinfo{
@@ -480,7 +460,8 @@ margin: 0 20px 20px 0;
 	color: #FFFFFF;
 	width: 90px;
 	height: 25px;
-	margin: 30px 0 0 125px;
+	margin: 30px 0 0 115px;
+	display: inline-block;
 
 }
 .mibutton{
@@ -489,18 +470,11 @@ margin: 0 20px 20px 0;
     padding: 7px;
 }
 
-.box7{
-	margin: 0 20px 20px 0;
-	height: 200px;
-	width: 100%;
-	background-color: #ECECEC;
-	border-radius: 5px;
-}
 .box8{
 	background-image: url("../images/beats.jpg");
 	background-size: cover;
 	background-position: center;
-	margin: 0 20px 20px 0;
+	margin-bottom: 20px;
 	height: 475px;
 	width: 100%;
 	background-color: #ECECEC;
@@ -511,10 +485,149 @@ margin: 0 20px 20px 0;
 	background-image: url("../images/headphone.jpg");
 	background-size: cover;
 	background-position: center;
-	margin: 0 20px 20px 0;
+	margin-bottom: 20px;
 	height: 520px;
 	width: 100%;
 	background-color: #ECECEC;
 	border-radius: 2px;
 }
 
+/*====================Match info=====================
+*/
+
+.mi-Container{
+	max-width: 1088px;
+	margin: 20px auto;
+	background-color: #D1D1D1;
+	padding: 10px;
+}
+
+.mi-Header >hr{
+	border: #000000 1px solid;
+
+}
+.mi-Header >img{
+	display: inline-block;
+	height: 25px;	
+	margin-right: 20px;
+	vertical-align: middle;
+}
+.mi-Header >p{
+	display: inline-block;
+	font-size: 18px;
+	color: #000000;
+	vertical-align: middle;
+
+}
+.mi-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 20px auto;
+}
+
+.mi-column {
+  flex: 50%;
+  max-width: 100%;
+  padding: 0 8px 0 0;
+}
+.mi-boxes{
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.mi-box1{
+	padding: 10px;
+	padding-top: 0;
+
+}
+.mi-box2{
+	background-color: #ECECEC;
+	
+	
+}
+.mi-t-Container{
+	display: flex;
+  	justify-content: center;
+}
+.mi-t-Container >div{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.mi-ticons{
+	height: 108px;
+	width: 108px;
+}
+.mi-tSpace{
+	
+}
+.mi-mTime{
+	vertical-align: middle;
+	font-size:18px;
+	padding: 20px 60px;
+	text-align: center;
+}
+.whwiwi{
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.bet{
+	display: flex;
+  	justify-content: center;
+}
+.bet >div{
+  	width: 108px;
+  	margin: 10px 30px;
+  	text-align: center;
+  	line-height: 30px;
+  	font-size: 15px;
+  	border-radius: 15px;
+  	color: #FFFFFF;
+}
+.bet-T{
+	background-color: #006FFF;
+}
+.bet-X{
+	background-color: #919191;
+	
+}
+.bet-Z{
+	background-color: #00A43C;
+	
+}
+
+.mi-box2 >h2{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+}
+.mi-box2 >div{
+	text-align: center;
+	margin-top: 20px;
+	line-height: 1.3;
+	font-size: 12px
+}
+.mi-box2 >div >p >span{
+	color:#FF5858;
+}
+
+
+#about-match >h2{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+}
+#about-match >div{
+	text-align: left;
+	margin-top:10px;
+	line-height: 1.2;
+	font-size: 12px;
+}
+#about-match >div >p >span{
+	color:#919191;
+}
+.mi2-column {
+  flex: 50%;
+  max-width: 100%;
+  padding-left: 8px;
+}
