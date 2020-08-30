@@ -3,8 +3,14 @@ body{
 	background-image: url(../images/hexa.jpg);
 }
 
-
-
+header{
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+.fix-section{
+	margin-top: 110px;
+}
 .header-block{
 	display: flex;
 	justify-content: space-between;
@@ -287,8 +293,8 @@ footer >hr{
 	border: 1px solid #707070;
 	height: 30px;
 	width: 100%;
+	max-width: 1088px;
 	margin: 20px auto;
-	margin-bottom: 0;
 }
 
 .loadmore p{
@@ -298,9 +304,74 @@ footer >hr{
 	margin-top:5px;
 }
 
+/*==============mainpage===============
+*/
+.game-section{
+	width: 635px;
+	height: 235px;
+	background-image: url("../images/PUBG.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: 0 20px 20px 0;
+}
+.game-section2{
+	width: 635px;
+	height: 235px;
+	background-image: url("../images/wow.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: 0 20px 20px 0;
+}
+.game-section3{
+	width: 635px;
+	height: 235px;
+	background-image: url("../images/csgo.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: 0 20px 20px 0;
+}
+.Acontainer >h3{
+	font-size: 11px;
+	margin: 5px 0;
+	color: #919191;
 
-
-
+}
+.submit{
+	background-color: #FF8C00;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+	border:none;
+	width: 75px;
+	height: 23px;
+	margin-left: 10px;
+}
+.remember{
+	font-size:14px;
+	color: #919191;
+}
+.Acontainer >hr{
+	border: solid 1px #DEDEDE;
+	margin: 0;
+}
+.Acontainer >label> input{
+	border: solid 1px #D1D1D1;
+	margin-bottom: 10px;
+	height: 25px;
+}
+.auThText{
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.gH{
+	color: #000000;
+	
+}
+.pF{
+	color: #FF5858;
+}
 /*======================newsfeed======================*/
 
 .banner{
@@ -308,6 +379,7 @@ footer >hr{
 	background-position: center;
     background-size: cover;
 	height: 215px;
+	margin-top: 90px;
 }
 
 
@@ -443,6 +515,7 @@ footer >hr{
 .tSpace{
 	padding: 10px 0 0 20px;
 	display: inline-block;
+	text-align: center;
 	vertical-align: middle;
 }
 .mTime{
@@ -459,10 +532,13 @@ footer >hr{
 	font-size: 12px;
 	color: #FFFFFF;
 	width: 90px;
-	height: 25px;
-	margin: 30px 0 0 115px;
-	display: inline-block;
+	margin: 30px auto 0 auto;
+	text-align: center;
 
+}
+
+.matchinfo >div{
+	margin:auto;
 }
 .mibutton{
 	margin: auto;
@@ -696,4 +772,73 @@ footer >hr{
     font-size: 12px;
     text-transform: uppercase;
     border-radius: 5px;
+    color: #FFFFFF;
 }
+
+/*=======================matches========================*/
+
+.m-section{
+	max-width: 1088px;
+	width: 100%;
+	margin: 110px auto 0 auto;
+}
+.m-g-boxes{
+	background-color: #D1D1D1;
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.m-g-Header{
+	height: 45px;
+	width: 400px;
+	background-color: #FF8C00;
+	font-size: 22px;
+	text-transform: uppercase;
+	padding:12px;
+	color: #FFFFFF;
+	border-radius: 5px 5px 0 0;
+}
+.matches-boxes{
+	margin: 0 10px;
+	width: 25%;
+	background-color: #ECECEC;
+	border-radius: 5px;
+	padding: 10px;
+}
+.matches-boxes >h3{
+	font-size: 18px;
+	color: #000000;
+}
+.m-tSpace{
+	padding: 10px 0 0 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.m-mTime{
+	display: inline-block;
+	margin-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+.m-slider{
+	margin:auto;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 15px solid #555;
+	border-bottom: 10px solid transparent;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 15px solid #555;
+	border-bottom: 10px solid transparent;
+}
+
+
