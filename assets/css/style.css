@@ -921,8 +921,28 @@ footer >hr{
 	display: inline-block;
 	vertical-align: middle;
 }
-.ch-pic{
+.ch-pic-pubg{
 	background-image: url("../images/PUBG.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.ch-pic-csgo{
+	background-image: url("../images/csgo.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.ch-pic-wow{
+	background-image: url("../images/wow.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 60px;
