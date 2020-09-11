@@ -89,7 +89,7 @@ header{
 
 .donate{
 	display: flex;
-	margin-right: 60px;
+	margin-right: 20px;
 	background-color: #FF8C00;
 	width: 108px;
 
@@ -1037,7 +1037,7 @@ footer >hr{
 	flex-direction:row;
 	-webkit-align-self:center;
 	align-self:center;
-	margin-top: -15px;
+	margin-top: 35px;
 	text-align: center;
 	padding: 230px 0\9;
 } 
