@@ -1252,6 +1252,8 @@ footer >hr{
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
+	font-family: "HelveLight";
+	font-size: 13px;
 }
 
 .reg-body button:active {
@@ -1291,10 +1293,7 @@ footer >hr{
 	font-family: "HelveMedium";
 	font-size: 30px;
 }
-.reg-form button {
-	font-family: "HelveLight";
-	font-size: 13px;
-}
+
 .reg-form a{
 	font-family: "HelveLight";
 	font-size: 13px;
@@ -1542,6 +1541,7 @@ footer >hr{
 	max-width: 1088px;
 	width: auto;
 }
+
 .navigation{
 	display: none;
 }
@@ -1551,6 +1551,7 @@ footer >hr{
 .searchlogo{
 	margin: 0 70px;
 }
+
 }
 
 @media (max-width: 570px){
