@@ -1433,6 +1433,7 @@ footer >hr{
     flex: 50%;
     max-width: 50%;
   }
+
 }
 
 @media (max-width: 600px) {
@@ -1448,6 +1449,18 @@ footer >hr{
 }
 .disnone{
 	display: none;
+}
+#clans{
+	margin: auto;
+}
+.mi-mTime{
+	padding:20px 30px;
+}
+.mi2-column, .mi-column{
+	padding: 0;
+}
+.bet >div{
+	margin: 10px;
 }
 .loadmore{
 	display: none;
