@@ -3,8 +3,6 @@ body{
 /*	background-image: url(../images/hexa.jpg);
 */	background-color: #0E0E0E;
 }
-
-
 header{
 	position: fixed;
 	top: 0;
@@ -21,8 +19,6 @@ header{
 	max-width: 1088px;
 	margin: 0 auto;
 }
-
-
 .logo{
 	display: flex;
 	text-transform: uppercase;
@@ -96,15 +92,7 @@ header{
 	margin-right: 20px;
 	background-color: #FF8C00;
 	width: 108px;
-
-	
 }
-
-.donate a:hover {
-	background-color: #FFFFFF;
-	color: #FF8C00;
-}
-
 .donation{
 	margin-left:10px;
 	font-size: 20px;
@@ -348,12 +336,13 @@ footer >hr{
 	margin: 0;
 }
 .Acontainer >label> input{
-	border: solid 1px #D1D1D1;
 	margin-bottom: 10px;
 	height: 25px;
 	font-family: "HelveRoman";
 	font-size: 16px;
-
+	background-color: #f9f9f9;
+	border: none;
+	outline: none;
 }
 .auThText{
 	font-size: 18px;
@@ -409,6 +398,14 @@ footer >hr{
 	font-size: 22px;
 	padding: 10px 0 0 20px;
 	font-family: "HelveRoman"
+}
+.question >label >input{
+	font-family: "HelveRoman";
+	font-size: 16px;
+	background-color: #ececec;
+	border: none;
+	width: 100%;
+	outline: none;
 }
 
 .box2{
@@ -1205,6 +1202,7 @@ footer >hr{
 /*===============registration======================*/
 
 
+
 .reg-body{
 	background: #0E0E0E;
 	display: flex;
@@ -1212,7 +1210,8 @@ footer >hr{
 	align-items: center;
 	flex-direction: column;
 	height: 100vh;
-	margin: -20px 0 50px;
+	margin-top: -50px;
+	box-sizing: border-box;
 }
 
 .reg-body h1 {
@@ -1239,6 +1238,8 @@ footer >hr{
 	text-decoration: none;
 	margin: 15px 0;
 }
+
+
 
 .reg-body button {
 	border-radius: 20px;
@@ -1273,7 +1274,7 @@ footer >hr{
 	justify-content: center;
 	flex-direction: column;
 	padding: 0 50px;
-	height: 100%;
+	height: 80%;
 	text-align: center;
 }
 
@@ -1283,13 +1284,29 @@ footer >hr{
 	padding: 12px 15px;
 	margin: 8px 0;
 	width: 100%;
+	outline: none;
+}
+.reg-form h1{
+	margin-bottom: 10px;
+	font-family: "HelveMedium";
+	font-size: 30px;
+}
+.reg-form button {
+	font-family: "HelveLight";
+	font-size: 13px;
+}
+.reg-form a{
+	font-family: "HelveLight";
+	font-size: 13px;
 }
 
+
 .reg-container {
+	margin-top: 110px;
 	background-color: #fff;
 	border-radius: 10px;
-  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-			0 10px 10px rgba(0,0,0,0.22);
+  	box-shadow: 0 14px 28px #00976e, 
+			0 10px 10px #000000;
 	position: relative;
 	overflow: hidden;
 	width: 768px;
@@ -1390,6 +1407,21 @@ footer >hr{
 	transition: transform 0.6s ease-in-out;
 }
 
+.overlay-panel h1{
+	font-family: "HelveMedium";
+	font-size: 25px;
+
+}
+.overlay-panel p{
+	font-family: "HelveLight";
+	font-size: 14px;
+	
+}
+.overlay-panel button{
+	font-family: "HelveLight";
+	font-size: 13px;
+	
+}
 .overlay-left {
 	transform: translateX(-20%);
 }
@@ -1405,6 +1437,10 @@ footer >hr{
 
 .reg-container.right-panel-active .overlay-right {
 	transform: translateX(20%);
+}
+.arrow{
+	height: 70px;
+	padding: 10px;
 }
 
 
